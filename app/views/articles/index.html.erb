@@ -1,0 +1,22 @@
+<h1>Listing articles</h1>
+
+<table>
+  <%= link_to 'New article', :action => :new %>
+  <tr>
+    <th>Title</th>
+    <th>Text</th>
+    <th></th> 
+    <th></th> 
+    <th></th>
+  </tr>
+
+  <% @articles.each do |article| %>
+    <tr>
+      <td><%= article.title %></td>
+      <td><%= article.text %></td>
+      <td><%=link_to 'Show', :action => :show, :id => article.id %></td>
+      <td><%=link_to 'Edit', :action => :edit, :id => article.id %></td>
+      <td><%=link_to 'Destroy', { :action => :destroy, :id => article.id }, :method => :delete, :confirm => 'Are you sure?' %></td>
+    </tr>
+  <% end %>  
+</table>
