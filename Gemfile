@@ -22,6 +22,9 @@ end
 
 gem 'jquery-rails'
 gem 'execjs'
+gem 'state_machine'
+gem 'simplecov'
+gem 'factory_girl_rails'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
