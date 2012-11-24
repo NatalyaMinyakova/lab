@@ -20,6 +20,11 @@
   </p>
 
   <p>
+    <%= f.label :state_event %><br/>
+    <%= f.collection_select :state_event, @article.state_transitions, :event, :human_event, :include_blank => true %>
+  </p>
+
+  <p>
     <%= f.submit %>
   </p>
 <% end %>

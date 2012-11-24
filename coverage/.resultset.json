@@ -250,6 +250,24 @@
         null,
         1,
         null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
         null
       ],
       "/home/natalya/Labs/lab/test/factories/articles.rb": [
@@ -277,7 +295,7 @@
         null
       ]
     },
-    "timestamp": 1353766434
+    "timestamp": 1353775671
   },
   "Functional Tests": {
     "coverage": {
@@ -530,6 +548,24 @@
         null,
         1,
         null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
         null
       ],
       "/home/natalya/Labs/lab/test/factories/articles.rb": [
@@ -548,6 +584,6 @@
         null
       ]
     },
-    "timestamp": 1353766445
+    "timestamp": 1353775682
   }
 }

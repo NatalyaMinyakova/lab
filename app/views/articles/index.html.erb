@@ -5,8 +5,9 @@
   <tr>
     <th>Title</th>
     <th>Text</th>
-    <th></th> 
-    <th></th> 
+    <th>State</th>
+    <th></th>
+    <th></th>
     <th></th>
   </tr>
 
@@ -14,9 +15,10 @@
     <tr>
       <td><%= article.title %></td>
       <td><%= article.text %></td>
+      <td><%= article.state %></td>
       <td><%=link_to 'Show', :action => :show, :id => article.id %></td>
       <td><%=link_to 'Edit', :action => :edit, :id => article.id %></td>
       <td><%=link_to 'Destroy', { :action => :destroy, :id => article.id }, :method => :delete, :confirm => 'Are you sure?' %></td>
     </tr>
-  <% end %>  
+  <% end %>
 </table>
