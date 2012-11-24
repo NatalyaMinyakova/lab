@@ -1,5 +1,4 @@
 language: ruby
 services: sqlite3
 rvm:
-  - "1.9.2"
   - "1.9.3"
