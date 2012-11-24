@@ -1,4 +1,5 @@
 language: ruby
-services: sqlite3
+before_script:
+  - bundle exec rake db:migrate:reset
 rvm:
   - "1.9.3"
