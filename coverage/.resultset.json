@@ -285,17 +285,14 @@
         1,
         null
       ],
-      "/home/natalya/Labs/lab/test/unit/article_test.rb": [
+      "/home/natalya/Labs/lab/test/unit/helpers/articles_helper_test.rb": [
         1,
         null,
         1,
-        null,
-        null,
-        null,
         null
       ]
     },
-    "timestamp": 1353775671
+    "timestamp": 1354377971
   },
   "Functional Tests": {
     "coverage": {
@@ -584,6 +581,6 @@
         null
       ]
     },
-    "timestamp": 1353775682
+    "timestamp": 1354377983
   }
 }
