@@ -42,8 +42,8 @@ class ArticlesControllerTest < ActionController::TestCase
     put :update, article: article_attrs, id: @article.id
     assert_response :redirect
 
-    article = Article.find(@article.id)
-    assert article_attrs[:title], article.title
+    @article.reload
+    assert article_attrs[:title], @article.title
   end
 
   test "should delete destroy" do
